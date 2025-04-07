@@ -4,7 +4,7 @@ import cors from 'cors'; // 👈 Importamos CORS
 import { getTemperature, getHumedad, getHumedadTierra, getMediciones } from './src/functions.js';
 
 const app = express();
-const PORT = 3008;
+const PORT = 5000;
 
 // Middleware
 app.use(bodyParser.json());
