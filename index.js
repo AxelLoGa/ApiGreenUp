@@ -10,11 +10,7 @@ const PORT = 5000;
 app.use(bodyParser.json());
 
 // 🔹 Habilitar CORS para permitir conexiones desde el frontend
-app.use(cors({
-  origin: 'http://localhost:8100', // 👈 Permite solicitudes desde el frontend
-  methods: 'GET,POST,PUT,DELETE',
-  allowedHeaders: 'Content-Type,Authorization'
-}));
+app.use(cors());
 
 // Rutas
 app.get('/api/mediciones', getMediciones);
