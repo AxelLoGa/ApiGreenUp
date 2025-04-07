@@ -1,0 +1,21 @@
+{
+  "name": "final-project-api",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "csv": "^6.3.11",
+    "express": "^4.21.2",
+    "jquery-csv": "^1.0.40",
+    "nodemon": "^3.1.9"
+  }
+}
